@@ -18,6 +18,12 @@
 
         <div>
             <form action="https://formsubmit.co/dynamicfitness@email.com" method="POST">
+                <!-- honeypot -->
+                <input type="text" name="honey" style="display: none">
+                
+                <!-- disable captcha -->
+                <input type="hidden" name="_captcha" value="false">
+                       
                 <div class="a">
                     <label class="em">Email Adress</label>
                     <input class="enteremail" name="email" type="email" placeholder="Email Address"></div>
