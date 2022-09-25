@@ -24,7 +24,7 @@
                 <!-- disable captcha -->
                 <input type="hidden" name="_captcha" value="false">
                        
-                
+                <input type="hidden" name="_next" value="https://buy.stripe.com/test_8wMcOb2Xr2P1blufYY">
                  
                 <div class="a">
                     <label class="em">Email Adress</label>
@@ -44,58 +44,7 @@
                     <input class="enteremail" type="text" name="phone-number" placeholder="Enter Phone Number" required>
                 </div>
 
-                <br> <!-- Load Stripe.js on your website. -->
-<script src="https://js.stripe.com/v3"></script>
-
-<!-- Create a button that your customers click to complete their purchase. Customize the styling to suit your branding. -->
-<button
-        type="submit"
-  class="button"
-  id="checkout-button-price_1LlRK3DkGfCNj2fsW61A6Mt6"
-  role="link"
-  
->
-  Checkout
-</button>
-
-<div id="error-message"></div>
-
-<script>
-(function() {
-  var stripe = Stripe('pk_test_51LkIxIDkGfCNj2fstCkbnZlJB5FkU31CEXwJORhyCLfiBPfdoi9rOuHG09EMKeXCIEXofkB47NGA8qcmpKJxkZjy003hu4XTVF');
-
-  var checkoutButton = document.getElementById('checkout-button-price_1LlRK3DkGfCNj2fsW61A6Mt6');
-  checkoutButton.addEventListener('click', function () {
-    /*
-     * When the customer clicks on the button, redirect
-     * them to Checkout.
-     */
-    stripe.redirectToCheckout({
-      lineItems: [{price: 'price_1LlRK3DkGfCNj2fsW61A6Mt6', quantity: 1}],
-      mode: 'payment',
-      /*
-       * Do not rely on the redirect to the successUrl for fulfilling
-       * purchases, customers may not always reach the success_url after
-       * a successful payment.
-       * Instead use one of the strategies described in
-       * https://stripe.com/docs/payments/checkout/fulfill-orders
-       */
-      successUrl: 'https://dynamicfitness.github.io/Dynamic-Fitness/success.html/,
-      cancelUrl: 'https://dynamicfitness.github.io/Dynamic-Fitness/index.html/canceled',
-    })
-    .then(function (result) {
-      if (result.error) {
-        /*
-         * If `redirectToCheckout` fails due to a browser or network
-         * error, display the localized error message to your customer.
-         */
-        var displayError = document.getElementById('error-message');
-        displayError.textContent = result.error.message;
-      }
-    });
-  });
-})();
-</script>
+                <br>  <button class="button" type="submit">Proceed to Payment  </button> 
             </form> 
 
         </div> 
