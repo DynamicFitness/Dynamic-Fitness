@@ -10,7 +10,7 @@ header{ position: absolute; left: 10%; top: 50px; font-size: 60pt; font-style: i
 
 .tr{position: relative; background-color: black;margin-right: auto;width: 76%;height: 477px;z-index: -1;border-top-right-radius: 23px;border-bottom-right-radius: 23px}
 
-.lifnk{position: absolute; right: 4%; top: 30px; color: white}
+.link{position: absolute; right: 4%; top: 30px; color: white}
 
 a.link:link, a:visited {
   background-color:white;
