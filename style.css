@@ -1,6 +1,5 @@
+#wrapper{overflow-x: hidden}
 #container{font-family: 'Montserrat', sans-serif;} 
-.wrapper{position: relative;overflow-x: hidden}
-
 
 header{ position: absolute; left: 10%; top: 50px; font-size: 60pt; font-style: italic; font-weight: bold;}
 .subtitle{ position: absolute; left: 30.5%; top: 144px; font-size: 20pt; font-weight:500; font-style: normal}
