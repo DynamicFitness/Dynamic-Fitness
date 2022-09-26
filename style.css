@@ -1,6 +1,8 @@
 #container{font-family: 'Montserrat', sans-serif;} 
-html{
-  overflow-x:hidden;
+body{
+height: 100%;
+overflow-x: hidden;
+width: 100%;
 }
 
 header{ position: absolute; left: 10%; top: 50px; font-size: 60pt; font-style: italic; font-weight: bold;}
