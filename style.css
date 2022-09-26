@@ -1,5 +1,5 @@
 #container{font-family: 'Montserrat', sans-serif;} 
-html, body {
+html{
   position:relative;
   overflow-x:hidden;
 }
