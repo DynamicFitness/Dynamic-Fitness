@@ -1,13 +1,7 @@
 #container{font-family: 'Montserrat', sans-serif;} 
-.main{overflow-x: hidden;}
-.site {
-        overflow-x: hidden;
-        /* Unnecessary IMHO, uncomment next line to force hidden behavior */
-        /* overflow-x: hidden !important; */
-        /* Additional tunning proposed by the community */
-        position: relative;
-        width: 100%;
-    }
+html {
+overflow-x: hidden;
+}
 
 header{ position: absolute; left: 10%; top: 50px; font-size: 60pt; font-style: italic; font-weight: bold;}
 .subtitle{ position: absolute; left: 30.5%; top: 144px; font-size: 20pt; font-weight:500; font-style: normal}
