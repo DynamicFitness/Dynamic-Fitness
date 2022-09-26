@@ -1,5 +1,13 @@
 #container{font-family: 'Montserrat', sans-serif;} 
 .main{overflow-x: hidden;}
+.site {
+        overflow-x: hidden;
+        /* Unnecessary IMHO, uncomment next line to force hidden behavior */
+        /* overflow-x: hidden !important; */
+        /* Additional tunning proposed by the community */
+        position: relative;
+        width: 100%;
+    }
 
 header{ position: absolute; left: 10%; top: 50px; font-size: 60pt; font-style: italic; font-weight: bold;}
 .subtitle{ position: absolute; left: 30.5%; top: 144px; font-size: 20pt; font-weight:500; font-style: normal}
@@ -8,7 +16,7 @@ header{ position: absolute; left: 10%; top: 50px; font-size: 60pt; font-style: i
 
 .tr{position: relative; background-color: black;margin-right: auto;width: 76%;height: 477px;z-index: -1;border-top-right-radius: 23px;border-bottom-right-radius: 23px}
 
-.link{position: absolute; right: 4%; top: 30px; color: white}
+.lifnk{position: absolute; right: 4%; top: 30px; color: white}
 
 a.link:link, a:visited {
   background-color:white;
