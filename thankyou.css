@@ -1,0 +1,7 @@
+#container{font-family: 'Montserrat', sans-serif;} 
+.main{overflow-x: hidden;}
+
+.box{position: relative;top: 40px;width: 50%;height: 500px;margin-left: 25%; background-color: black ;border-radius: 23px}
+
+h1{position: relative;text-align: center;color: white;font-weight: 600;font-size: 50px;top: -370px;font-style: italic}
+p{position: relative;text-align: center;color: #dadada;font-size: 35px;padding: 0px 400px; top: -250px}
