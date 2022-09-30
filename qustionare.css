@@ -1,0 +1,19 @@
+#container{font-family: 'Montserrat', sans-serif;} 
+.main{overflow-x: hidden;}
+
+.box{position: relative;top: 40px;width: 50%;height: 200px;margin-left: 25%; background-color: black ;border-radius: 23px}
+
+h1{position: relative;margin-left: 36%;color: white;font-weight: 600;font-size: 30px;top: -120px;font-style: italic}
+p{position: relative;margin-left: 36%;color: #dadada;font-size: 25px;padding-bottom:10px;top: -95px}
+
+.em{position: relative;margin-left: 27%; font-size: 20px}
+.enteremail{position: relative;margin-left: 27%;padding-right: 33%;border-radius: 7px;border-width: thin;height: 25px;}
+form{padding: 30px}
+label{position: relative;top: -7px}
+
+.a{ position: relative;padding: 10px 0px}
+.b{ position: relative;padding: 10px 0px}
+.c{ position: relative;padding: 10px 0px}
+.questions{ position: relative;padding: 20px 0px}
+
+.button{position: relative;left: 44%; padding: 10px 20px}
