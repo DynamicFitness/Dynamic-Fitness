@@ -7,3 +7,21 @@ h1{position: relative;text-align: center;color: white;font-weight: 600;font-size
 p{position: relative;text-align: center;color: #dadada;font-size: 35px;padding: 0px 400px; top: -350px}
 
 a.link4{position: relative;color: white}
+
+
+@media only screen and (max-width:560px) { body { } }
+
+@media only screen and (max-width:980px) { h1 { font-size: 40px} }
+@media only screen and (max-width:780px) { h1 { font-size: 30px} }
+@media only screen and (max-width:650px) { h1 { font-size: 40px;top: -370px} }
+@media only screen and (max-width:560px) { h1 { font-size: 30px} }
+
+
+@media only screen and (max-width:1190px) { p { font-size: 30px} }
+@media only screen and (max-width:1090px) { p { font-size: 27px;padding: 0px 300px} }
+@media only screen and (max-width:920px) { p { padding: 0px 250px} }
+@media only screen and (max-width:840px) { .link4 { font-size: 20px} }
+@media only screen and (max-width:720px) { p { padding: 0px 200px} }
+@media only screen and (max-width:650px) { p { padding: 0px 100px;top: -300px} }
+
+@media only screen and (max-width:650px) { .box { width: 70%;margin-left: 15%} }

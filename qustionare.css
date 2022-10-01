@@ -6,9 +6,11 @@
 h1{position: relative;margin-left: 36%;color: white;font-weight: 600;font-size: 30px;top: -120px;font-style: italic}
 p{position: relative;margin-left: 36%;color: #dadada;font-size: 25px;padding-bottom:10px;top: -95px}
 
-.em{position: relative;margin-left: 27%; font-size: 20px}
 .enteremail{position: relative;margin-left: 27%;padding-right: 33%;border-radius: 7px;border-width: thin;height: 25px;}
-form{padding: 30px}
+
+.em{font-size: 20px;position: relative;left: 27%}
+
+
 label{position: relative;top: -7px}
 
 .a{ position: relative;padding: 10px 0px}
@@ -17,3 +19,27 @@ label{position: relative;top: -7px}
 .questions{ position: relative;padding: 20px 0px}
 
 .button{position: relative;left: 44%; padding: 10px 20px}
+
+.footer{position: relative;height: 60px}
+
+
+@media only screen and (max-width:800px) { body { } }
+
+@media only screen and (max-width:970px) { .top { padding: 0px 200px} }
+@media only screen and (max-width:970px) { .top { margin-left: 5%} }
+
+@media only screen and (max-width:760px) { h1 {margin-left: 30%} }
+@media only screen and (max-width:680px) { h1 {font-size:25px} }
+
+@media only screen and (max-width:550px) { h1 { padding: 0px 120px; margin-left: 10% } }
+@media only screen and (max-width:550px) { .top { padding: 0px 150px; margin-left: 5% } }
+
+@media only screen and (max-width:860px) { .enteremail {left: -10% } }
+@media only screen and (max-width:860px) { label {left: -10% } }
+@media only screen and (max-width:860px) { .em {left: 16% } }
+
+@media only screen and (max-width:800px) { .em {padding-right: 100px;left: 10%} }
+
+
+
+
