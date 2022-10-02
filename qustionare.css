@@ -47,6 +47,7 @@ label{position: relative;top: -7px}
 @media only screen and (max-width:550px) { .top { padding: 0px 150px; margin-left: 5% } }
 
 @media only screen and (max-width:860px) { .enteremail {left: -10%;padding-right: 10px} }
+@media only screen and (max-width:860px) { .entermail {left: -10%} }
 @media only screen and (max-width:860px) { label {left: -10% } }
 @media only screen and (max-width:860px) { .em {left: 16% } }
 
