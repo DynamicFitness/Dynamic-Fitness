@@ -1,6 +1,15 @@
 #container{font-family: 'Montserrat', sans-serif;} 
 .main{overflow-x: hidden;}
 
+body {
+  margin: 0;
+  width: 100vw; 
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+
 .box{position: relative;top: 40px;width: 50%;height: 200px;margin-left: 25%; background-color: black ;border-radius: 23px}
 
 h1{position: relative;margin-left: 36%;color: white;font-weight: 600;font-size: 30px;top: -120px;font-style: italic}
