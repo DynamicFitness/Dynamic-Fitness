@@ -32,7 +32,7 @@ label{position: relative;top: -7px}
 .footer{position: relative;height: 60px}
 
 
-@media only screen and (max-width:800px) { body { } }
+@media only screen and (max-width:500px) { body { background-colour: pink} }
 
 @media only screen and (max-width:970px) { .top { padding: 0px 200px} }
 @media only screen and (max-width:970px) { .top { margin-left: 5%} }
