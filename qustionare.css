@@ -15,7 +15,8 @@ body {
 h1{position: relative;margin-left: 36%;color: white;font-weight: 600;font-size: 30px;top: -120px;font-style: italic}
 p{position: relative;margin-left: 36%;color: #dadada;font-size: 25px;padding-bottom:10px;top: -95px}
 
-.enteremail{position: relative;margin-left: 27%;padding-right: 33%;border-radius: 7px;border-width: thin;height: 25px;}
+.enteremail{position: relative;margin-left: 27%;border-radius: 7px;border-width: thin;height: 25px;}
+.entermail{position: relative;margin-left: 27%;padding-right: 33%;border-radius: 7px;border-width: thin;height: 25px;}
 
 
 
