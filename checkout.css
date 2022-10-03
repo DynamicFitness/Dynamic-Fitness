@@ -16,4 +16,5 @@ label{position: relative;top: -7px}
 .c{ position: relative;padding: 10px 0px}
 .d{ position: relative;padding: 10px 0px}
 
-.button{position: relative;left: 44%; padding: 10px 20px}
+
+.button{position: relative;margin-left: 41%; padding: 10px 20px;background-color: #f1c40f;border-radius: 5px;border-color: rgba(56, 152, 236, 0);font-size: 17px;font-weight: 600}

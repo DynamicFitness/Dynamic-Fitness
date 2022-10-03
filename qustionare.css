@@ -27,7 +27,8 @@ label{position: relative;top: -7px}
 
 .questions{ position: relative;padding: 20px 0px}
 
-.button{position: relative;left: 44%; padding: 10px 20px}
+.buttona{}
+.button{position: relative;margin-left: 45%; padding: 17px 45px;background-color: #f1c40f;border-radius: 5px;border-color: rgba(56, 152, 236, 0);font-size: 17px;font-weight: 600}
 
 .footer{position: relative;height: 60px}
 
