@@ -29,6 +29,7 @@ label{position: relative;top: -7px}
 
 .buttona{}
 .button{position: relative;margin-left: 45%; padding: 17px 45px;background-color: #f1c40f;border-radius: 5px;border-color: rgba(56, 152, 236, 0);font-size: 17px;font-weight: 600}
+.button:hover{background-color: #f1c40f;transform: scale(1.08,1.08);transition-duration: 300ms}
 
 .footer{position: relative;height: 60px}
 
