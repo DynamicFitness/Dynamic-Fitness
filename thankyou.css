@@ -26,20 +26,5 @@ a.link4{position: relative;color: white}
 
 @media only screen and (max-width:650px) { .box { width: 70%;margin-left: 15%} }
 
-@media only screen and (max-width:200px) { body { background-color:aqua } }
-@media only screen and (max-width:250px) { body { background-color:black } }
-@media only screen and (max-width:300px) { body { background-color:chartreuse } }
-@media only screen and (max-width:350px) { body { background-color:coral } }
-@media only screen and (max-width:400px) { body { background-color:crimson } }
-@media only screen and (max-width:450px) { body { background-color:darkblue } }
-@media only screen and (max-width:500px) { body { background-color:darkviolet } }
-@media only screen and (max-width:550px) { body { background-color:darkorange } }
-@media only screen and (max-width:600px) { body { background-color:brown } }
-@media only screen and (max-width:650px) { body { background-color:darkgray } }
-@media only screen and (max-width:700px) { body { background-color:darkkhaki } }
-@media only screen and (max-width:750px) { body { background-color:fuchsia } }
-@media only screen and (max-width:800px) { body { background-color:deeppink } }
-@media only screen and (max-width:850px) { body { background-color:antiquewhite } }
-@media only screen and (max-width:900px) { body { background-color } }
-@media only screen and (max-width:950px) { body { background-color } }
+
 
